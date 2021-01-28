@@ -1,0 +1,71 @@
+field: f6e09556-ad64-4de9-9c8c-f24babd5ea36
+fieldLayouts:
+  3230d571-b1aa-44ac-8b21-b107a76f8428:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 85b7c83e-c98a-46de-b95f-35adf4d54b16
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d05baa7d-3b55-4690-8287-03bbd7859af0
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  85b7c83e-c98a-46de-b95f-35adf4d54b16:
+    contentColumnType: text
+    fieldGroup: null
+    handle: testimonialTitle
+    instructions: ''
+    name: 'Testimonial Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d05baa7d-3b55-4690-8287-03bbd7859af0:
+    contentColumnType: string
+    fieldGroup: null
+    handle: testimonials
+    instructions: ''
+    name: Testimonials
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '3'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:8af9a5f5-7ebb-4373-bb61-730de03e11bd'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: testimonials
+name: Testimonials
+sortOrder: 2

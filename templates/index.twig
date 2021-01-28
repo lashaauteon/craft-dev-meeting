@@ -1,0 +1,7 @@
+{% extends "index_layout" %}
+{% block content %}
+    {% set entries = entry.maincontent.all() %}
+    {% for module in entries %}
+        {% include 'modules/' ~ module.type %}
+    {% endfor %}
+{% endblock %}

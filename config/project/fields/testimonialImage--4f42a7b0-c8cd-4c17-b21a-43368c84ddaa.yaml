@@ -1,0 +1,32 @@
+contentColumnType: string
+fieldGroup: ba01e3fc-db01-4180-a444-42724273c5be
+handle: testimonialImage
+instructions: ''
+name: 'Testimonial Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:8b0a636d-831d-4ae7-bcfc-2dbbff082a70'
+  defaultUploadLocationSubpath: ''
+  limit: ''
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: ''
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:8b0a636d-831d-4ae7-bcfc-2dbbff082a70'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:8b0a636d-831d-4ae7-bcfc-2dbbff082a70'
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

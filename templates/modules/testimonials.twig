@@ -1,0 +1,13 @@
+<div class="container">
+  <h3> {{ module.testimonialTitle }}</h3>
+  <div class="testimonails">
+  {% for t in module.testimonials.all() %}
+    <div>
+      <img 
+        src="{{ t.testimonialImage.first().url }}" 
+        alt="t.testimonialsName" >
+      <p>{{ t.testimonialName }}</p>
+    </div>
+  {% endfor %}
+  </div>
+</div>

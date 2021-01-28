@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: dbffa377-8ee3-4cd7-b760-40af17b622cd
+handle: textContentContent
+instructions: ''
+name: 'Text Content Content'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
